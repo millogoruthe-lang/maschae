@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elishama Prestige | Restaurant africain moderne et fast-food</title>
+  <meta name="description" content="Elishama Prestige, restaurant africain moderne et fast-food. Plats généreux, service rapide, réservation en ligne. Ouvert tous les jours de 08h à 22h.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="entete">
+    <div class="conteneur nav-conteneur">
+      <a href="index.html" class="logo" aria-label="Elishama Prestige, accueil">
+        <span class="logo-marque">EP</span>
+        <span class="logo-texte">Elishama <em>Prestige</em></span>
+      </a>
+
+      <button class="bouton-menu" id="boutonMenu" type="button"
+              aria-label="Ouvrir le menu de navigation" aria-expanded="false"
+              aria-controls="navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="navigation" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="actif">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#reservation" class="lien-reserver">Réserver</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="accueil">
+      <span class="hero-bulle hero-bulle-1" aria-hidden="true"></span>
+      <span class="hero-bulle hero-bulle-2" aria-hidden="true"></span>
+
+      <div class="conteneur hero-contenu">
+        <p class="hero-surtitre reveler">Restaurant africain moderne &amp; fast-food</p>
+
+        <h1 class="reveler d1">Elishama <span class="accent">Prestige</span></h1>
+
+        <p class="hero-texte reveler d2">
+          Le goût authentique de l'Afrique, servi avec l'élégance d'aujourd'hui.
+          Des plats généreux préparés à la commande, une ambiance chaleureuse et raffinée,
+          et le service rapide que vous attendez d'un fast-food de qualité.
+        </p>
+
+        <div class="hero-actions reveler d3">
+          <a href="#reservation" class="btn btn-primaire">Réserver une table</a>
+          <a href="#plats" class="btn btn-contour">Découvrir la carte</a>
+        </div>
+
+        <ul class="hero-infos reveler d4">
+          <li>
+            <strong>08h - 22h</strong>
+            <span>Ouvert tous les jours</span>
+          </li>
+          <li>
+            <strong>226 55 31 52 01</strong>
+            <span>Réservation et livraison</span>
+          </li>
+          <li>
+            <strong>Jusqu'à 12 personnes</strong>
+            <span>Par réservation</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PLATS ================= -->
+    <section class="section" id="plats">
+      <div class="conteneur">
+        <div class="section-titre reveler">
+          <p class="etiquette">Notre carte</p>
+          <h2>Six plats qui font notre renommée</h2>
+          <p>
+            Chaque recette est préparée sur place, avec des produits frais du marché
+            et des épices sélectionnées. Sur place, à emporter ou en livraison.
+          </p>
+        </div>
+
+        <div class="plats-grille">
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-1.svg" alt="Poulet braisé Prestige servi avec de l'alloco" width="800" height="600" loading="lazy">
+              <span class="plat-prix">5 500 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Spécialité du feu de bois</span>
+              <h3>Poulet Braisé Prestige</h3>
+              <p>Poulet entier mariné douze heures aux épices africaines, grillé au feu de bois,
+                accompagné d'alloco doré et d'une sauce piment maison.</p>
+            </div>
+          </article>
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-2.svg" alt="Riz gras Elishama aux légumes" width="800" height="600" loading="lazy">
+              <span class="plat-prix">3 500 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Le classique</span>
+              <h3>Riz Gras Elishama</h3>
+              <p>Riz mijoté au bouillon de viande et de légumes, parfumé au thym et à l'ail,
+                servi avec une salade fraîche de saison.</p>
+            </div>
+          </article>
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-3.svg" alt="Attiéké accompagné d'un poisson braisé" width="800" height="600" loading="lazy">
+              <span class="plat-prix">4 500 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Fraîcheur du jour</span>
+              <h3>Attiéké Poisson Braisé</h3>
+              <p>Semoule de manioc fondante accompagnée d'un poisson braisé entier,
+                oignons frais, tomates et une pointe de citron vert.</p>
+            </div>
+          </article>
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-4.svg" alt="Burger Prestige double steak" width="800" height="600" loading="lazy">
+              <span class="plat-prix">4 000 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Côté fast-food</span>
+              <h3>Burger Prestige</h3>
+              <p>Double steak haché grillé, cheddar fondu, sauce spéciale Elishama,
+                salade croquante et frites maison croustillantes.</p>
+            </div>
+          </article>
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-5.svg" alt="Brochettes de boeuf grillées aux braises" width="800" height="600" loading="lazy">
+              <span class="plat-prix">4 200 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Grillé aux braises</span>
+              <h3>Brochettes de Boeuf</h3>
+              <p>Tendres cubes de boeuf marinés aux herbes, grillés à la braise,
+                servis avec frites et une sauce yaourt-menthe rafraîchissante.</p>
+            </div>
+          </article>
+
+          <article class="plat">
+            <div class="plat-image">
+              <img src="images/plat-6.svg" alt="Alloco et poulet pané croustillant" width="800" height="600" loading="lazy">
+              <span class="plat-prix">3 800 FCFA</span>
+            </div>
+            <div class="plat-corps">
+              <span class="plat-etiquette">Le plus gourmand</span>
+              <h3>Alloco Poulet Pané</h3>
+              <p>Bananes plantains dorées et fondantes, poulet pané croustillant,
+                servies avec une sauce tomate légèrement épicée.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= À PROPOS (extrait) ================= -->
+    <section class="section apropos-apercu" id="apropos">
+      <div class="conteneur apropos-grille">
+        <div class="apropos-images reveler">
+          <img src="images/ambiance-1.svg" alt="Salle du restaurant Elishama Prestige" width="800" height="600" loading="lazy">
+          <img src="images/ambiance-2.svg" alt="Table garnie de plats africains partagés" width="800" height="600" loading="lazy">
+        </div>
+
+        <div class="apropos-texte reveler d1">
+          <p class="etiquette">À propos</p>
+          <h2>Une maison africaine, un esprit moderne</h2>
+          <p>
+            Né d'une passion pour la cuisine de nos grands-mères, <strong>Elishama Prestige</strong>
+            réunit le meilleur de deux mondes : la richesse des saveurs africaines et la
+            rapidité d'un service pensé pour les journées pressées.
+          </p>
+          <p>
+            Notre cuisine ouvre dès 08h et ne s'éteint qu'à 22h. Chaque plat est dressé à la
+            commande, avec des produits frais achetés le matin même sur les marchés locaux.
+          </p>
+
+          <ul class="apropos-points">
+            <li><strong>Produits frais</strong> sélectionnés chaque matin</li>
+            <li><strong>Préparation minute</strong> pour un goût intact</li>
+            <li><strong>Service rapide</strong> sur place, à emporter ou en livraison</li>
+            <li><strong>Espace groupe</strong> jusqu'à 12 personnes</li>
+          </ul>
+
+          <a href="apropos.html" class="btn btn-contour">En savoir plus sur nous</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HORAIRES ================= -->
+    <section class="section horaires" id="horaires">
+      <div class="conteneur">
+        <div class="section-titre clair reveler">
+          <p class="etiquette clair">Horaires d'ouverture</p>
+          <h2>Nous vous accueillons sept jours sur sept</h2>
+          <p>De 08h00 à 22h00, sans interruption, pour le petit-déjeuner, le déjeuner et le dîner.</p>
+        </div>
+
+        <div class="horaires-grille">
+          <div class="horaire-carte reveler">
+            <h3>Lundi - Jeudi</h3>
+            <p class="horaire-heure">08h00 - 22h00</p>
+            <p class="horaire-note">Service continu, salle et terrasse</p>
+          </div>
+
+          <div class="horaire-carte reveler d1">
+            <h3>Vendredi - Samedi</h3>
+            <p class="horaire-heure">08h00 - 22h00</p>
+            <p class="horaire-note">Soirées grillades et musique douce</p>
+          </div>
+
+          <div class="horaire-carte reveler d2">
+            <h3>Dimanche</h3>
+            <p class="horaire-heure">08h00 - 22h00</p>
+            <p class="horaire-note">Formule famille et plats à partager</p>
+          </div>
+        </div>
+
+        <p class="horaires-note reveler d3">
+          Dernière commande acceptée à 21h30. Réservation conseillée le week-end.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= RÉSERVATION ================= -->
+    <section class="section reservation" id="reservation">
+      <div class="conteneur">
+        <div class="section-titre reveler">
+          <p class="etiquette">Réservation</p>
+          <h2>Réservez votre table en quelques secondes</h2>
+          <p>Indiquez vos informations, nous vous rappelons pour confirmer.
+            Pour les groupes, la réservation est limitée à 12 personnes.</p>
+        </div>
+
+        <div class="reservation-grille">
+
+          <aside class="reservation-infos reveler">
+            <h3>Informations pratiques</h3>
+
+            <div class="info-ligne">
+              <span class="info-titre">Téléphone</span>
+              <span class="info-valeur">226 55 31 52 01</span>
+            </div>
+
+            <div class="info-ligne">
+              <span class="info-titre">Horaires</span>
+              <span class="info-valeur">08h00 - 22h00, tous les jours</span>
+            </div>
+
+            <div class="info-ligne">
+              <span class="info-titre">Capacité par réservation</span>
+              <span class="info-valeur">1 à 12 personnes</span>
+            </div>
+
+            <div class="info-ligne">
+              <span class="info-titre">Espaces disponibles</span>
+              <span class="info-valeur">Salle, terrasse, espace VIP</span>
+            </div>
+
+            <p class="info-astuce">
+              Astuce : pour une réservation de plus de 12 personnes,
+              appelez-nous directement au 226 55 31 52 01.
+            </p>
+          </aside>
+
+          <form class="formulaire" id="formReservation" novalidate>
+            <div class="grille-formulaire">
+
+              <div class="groupe-champ">
+                <label for="nom">Nom complet <span class="requis">*</span></label>
+                <input type="text" id="nom" name="nom" placeholder="Ex : Awa Ouedraogo"
+                       autocomplete="name" aria-describedby="err-nom">
+                <p class="message-erreur" id="err-nom" role="alert"></p>
+              </div>
+
+              <div class="groupe-champ">
+                <label for="telephone">Téléphone <span class="requis">*</span></label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Ex : 226 55 31 52 01"
+                       autocomplete="tel" aria-describedby="err-telephone">
+                <p class="message-erreur" id="err-telephone" role="alert"></p>
+              </div>
+
+              <div class="groupe-champ">
+                <label for="date">Date de réservation <span class="requis">*</span></label>
+                <input type="date" id="date" name="date" aria-describedby="err-date">
+                <p class="message-erreur" id="err-date" role="alert"></p>
+              </div>
+
+              <div class="groupe-champ">
+                <label for="heure">Heure (08h - 22h) <span class="requis">*</span></label>
+                <input type="time" id="heure" name="heure" min="08:00" max="22:00" step="900"
+                       aria-describedby="err-heure">
+                <p class="message-erreur" id="err-heure" role="alert"></p>
+              </div>
+
+              <div class="groupe-champ">
+                <label for="personnes">Nombre de personnes (max 12) <span class="requis">*</span></label>
+                <input type="number" id="personnes" name="personnes" min="1" max="12" value="2"
+                       aria-describedby="err-personnes">
+                <p class="message-erreur" id="err-personnes" role="alert"></p>
+              </div>
+
+              <div class="groupe-champ">
+                <label for="espace">Espace souhaité</label>
+                <select id="espace" name="espace">
+                  <option value="Salle principale">Salle principale</option>
+                  <option value="Terrasse">Terrasse</option>
+                  <option value="Espace VIP">Espace VIP</option>
+                  <option value="À emporter">À emporter</option>
+                </select>
+                <p class="message-erreur" role="alert"></p>
+              </div>
+
+            </div>
+
+            <div class="groupe-champ">
+              <label for="message">Message (facultatif)</label>
+              <textarea id="message" name="message" rows="4"
+                        placeholder="Une occasion particulière, une allergie, une demande de gâteau..."></textarea>
+              <p class="message-erreur" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primaire btn-large">Confirmer la réservation</button>
+
+            <div class="confirmation" id="confirmationReservation" role="status" aria-live="polite"></div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-apercu" id="contact">
+      <div class="conteneur">
+        <div class="section-titre reveler">
+          <p class="etiquette">Contact</p>
+          <h2>Venez nous voir, nous vous attendons</h2>
+          <p>Une question, une commande, un événement à organiser ? Écrivez-nous ou passez nous voir.</p>
+        </div>
+
+        <div class="contact-grille">
+          <article class="carte-contact reveler">
+            <h3>Adresse</h3>
+            <p>Quartier Zogona, Avenue de la Jeunesse<br>Ouagadougou, Burkina Faso</p>
+          </article>
+
+          <article class="carte-contact reveler d1">
+            <h3>Téléphone</h3>
+            <p><a href="tel:+22655315201">226 55 31 52 01</a></p>
+            <p class="petit">Appels et messages, 08h - 22h</p>
+          </article>
+
+          <article class="carte-contact reveler d2">
+            <h3>Courriel</h3>
+            <p><a href="mailto:contact@elishamaprestige.com">contact@elishamaprestige.com</a></p>
+            <p class="petit">Réponse sous 24 heures</p>
+          </article>
+        </div>
+
+        <div class="contact-bouton reveler d3">
+          <a href="contact.html" class="btn btn-primaire">Page contact et formulaire</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied-grille">
+      <div class="pied-colonne">
+        <a href="index.html" class="logo pied-logo">
+          <span class="logo-marque">EP</span>
+          <span class="logo-texte">Elishama <em>Prestige</em></span>
+        </a>
+        <p>Restaurant africain moderne et fast-food. Des plats généreux,
+          préparés minute, dans une ambiance chaleureuse.</p>
+      </div>
+
+      <div class="pied-colonne">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#reservation">Réservation</a></li>
+        </ul>
+      </div>
+
+      <div class="pied-colonne">
+        <h4>Nous joindre</h4>
+        <ul>
+          <li>226 55 31 52 01</li>
+          <li>contact@elishamaprestige.com</li>
+          <li>Ouagadougou, Burkina Faso</li>
+        </ul>
+      </div>
+
+      <div class="pied-colonne">
+        <h4>Horaires</h4>
+        <ul>
+          <li>Lundi - Dimanche</li>
+          <li>08h00 - 22h00</li>
+          <li>Dernière commande : 21h30</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="conteneur pied-bas">
+      <p>&copy; <span id="annee">2025</span> Elishama Prestige. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
